@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="#162036">
+
+    <ProgressBar
+        android:id="@+id/empty_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:layout_weight="1" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="30dp"
+        app:cardBackgroundColor="#27304C"
+        >
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:id="@+id/llma"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:background="#162036">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:text="Email"
+                android:id="@+id/hell"
+                android:textColor="#2DBF90" />
+
+            <EditText
+                android:id="@+id/etloginmail"
+                android:paddingLeft="7dp"
+                android:textCursorDrawable="@null"
+                android:layout_width="match_parent"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_below="@+id/llma"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="130dp"
+            android:background="#162036"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:text="Password"
+                android:textColor="#2DBF90" />
+
+            <EditText
+                android:id="@+id/etloginpass"
+                android:paddingLeft="7dp"
+                android:textCursorDrawable="@null"
+                android:layout_width="match_parent"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:maxLines="1"
+                android:textColorHint="#FFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btlog"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="220dp"
+                android:background="#CF4332"
+                android:text="Login"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="145dp"
+                android:text="Or"
+                android:layout_marginTop="270dp"
+                android:textColor="#FFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="300dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/ivgooglesignin"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:src="@drawable/googlesignin" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/btLoginSignup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/grad"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:text="New User? Sign Up!"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llnotification"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cvcomplaint"
+        android:layout_margin="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvNotificationDesc"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:text="Description"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNotificationDesc"
+                android:id="@+id/tvNotificationStatus"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:text="Status : "
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNotificationDesc"
+                android:id="@+id/tvNotificationCurrently"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:text="Currently : "
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNotificationDesc"
+                android:id="@+id/tvNotificationDate"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:text="Date : "
+                />
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Forward"
+               android:id="@+id/btcomplaint"
+               android:layout_below="@id/tvNotificationDate"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

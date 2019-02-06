@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+
+    <Button
+        android:id="@+id/btCustomMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Complaints"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#CF4332"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btCustomGarbage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CF4332"
+        android:text="Server Complaints"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:layout_marginBottom="30dp"
+        />
+
+</LinearLayout>

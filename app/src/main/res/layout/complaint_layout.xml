@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#27304C"
+    >
+
+    <TextView
+        android:id="@+id/tvCustomRegistrationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter the following details"
+        android:layout_marginLeft="23dp"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#fff"
+        android:background="#27304C"
+        />
+
+
+    <EditText
+        android:id="@+id/etComplaintName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:background="#fff"
+        android:padding="15dp"
+        />
+
+    <EditText
+        android:id="@+id/etComplaintNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:background="#fff"
+        android:padding="15dp"
+        />
+
+    <EditText
+        android:id="@+id/etComplaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the complaint"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/btComplaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Complaint"
+        android:layout_marginTop="20dp"
+        android:background="#CF4332"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

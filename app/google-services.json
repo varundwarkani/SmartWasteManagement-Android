@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "602322809727",
+    "firebase_url": "https://smartwastemanage-66c48.firebaseio.com",
+    "project_id": "smartwastemanage-66c48",
+    "storage_bucket": "smartwastemanage-66c48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602322809727:android:e437cf4062c33bd0",
+        "android_client_info": {
+          "package_name": "devoops.smartwastemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602322809727-evgata40s51sfv8t05dlg6m20kelk67g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "devoops.smartwastemanagement",
+            "certificate_hash": "1eb383a94a1293a5f579edd7eadbdbf54ae6061d"
+          }
+        },
+        {
+          "client_id": "602322809727-3r737v78nsgvms0p4hau859bpfesq58e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "devoops.smartwastemanagement",
+            "certificate_hash": "93fb60d715cc40c50eb13a94431657f6f4f6b373"
+          }
+        },
+        {
+          "client_id": "602322809727-ibkkl41m61hbj62tflftf6tsqcdr678p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0yu0GwmXjz2qgKgUwP53jJvu8hsXvfDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602322809727-ibkkl41m61hbj62tflftf6tsqcdr678p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
